@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('HomeApp.urls')),
     path("login/", include('LoginApp.urls')),  # Login ilovasini qo'shish
+    path('school/', include('school.urls'))
 ]
